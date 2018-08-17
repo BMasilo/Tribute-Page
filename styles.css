@@ -84,7 +84,7 @@ blockquote{
 
 #mandelaPic{
   border-radius: inherit;
-  max-width: 300px;
+  width: 100%;
   box-shadow: 2px 2px 2px 2px  black;
 }
 
