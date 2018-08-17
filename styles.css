@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #b0c4c8;
+  font: 100% 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  max-width: 80%;
+  margin: auto;
+  }
+
+header{
+  text-align: center;
+
+  background: url("http://cajnewsafrica.com/wp-content/uploads/2018/01/Flag-of-SA.jpg") no-repeat fixed;
+  -webkit-background-size: 1500px 760px;
+  background-size:  1500px 760px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+header img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#mainPic{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px  black;
+  border-radius: 50%;
+}
+
+.firstLetter{
+  line-height: 70px;
+  font-size: 35px;
+  font-family: fantasy;
+  color: rgb(41, 93, 26);
+}
+
+
+#mainContent {
+  float:left;
+   background: rgb(237, 243, 244);
+  padding: 0px 10px 0px 10px;
+}
+.bolder{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 1.2em;
+  color: rgb(41, 93, 26);
+
+}
+
+blockquote{
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+
+#content{
+  max-width:70%;
+  float: left;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+ #content h2, h1{
+  color: black;
+  font-family: Georgia;
+}
+
+.secondFigure {
+    display: table;
+    max-width:30%;
+    box-shadow: 2px 2px 2px 2px  #888888;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+#mandelaPic{
+  border-radius: inherit;
+  max-width: 300px;
+  box-shadow: 2px 2px 2px 2px  black;
+}
+
+figcaption{
+  font-style: italic;
+  color: brown;
+  padding-left: 10px;
+}
+
+footer{
+  background: rgb(237, 243, 244);
+}
+.leftFooter{
+text-align:left;
+float:left;
+width:50%;
+color: rgb(41, 93, 26);
+}
+
+.rightFooter{
+float:left;
+text-align:right;
+width:50%;
+color: rgb(41, 93, 26);
+}
+
+  @media screen and (max-width: 800px) {
+    header, section, button{
+      max-width: 100%;
+      float: none;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #mainPic{
+    max-width: 150px;
+    margin: auto;
+    }
+
+    .leftFooter, .rightFooter, footer{
+      width:auto;
+      float: none;
+      text-align: center;
+    }
+
+    #mandelaPic, .secondFigure{
+      display:none;
+    }
+
+    #content, .mainContent, body{
+      max-width: 100%;
+      font-size: 1em;
+    }
+    header{
+      background:gray;
+    }
+
+    footer{
+      background: url("http://cajnewsafrica.com/wp-content/uploads/2018/01/Flag-of-SA.jpg") no-repeat;
+
+    }
+  }
