@@ -111,7 +111,7 @@ width:50%;
 color: rgb(41, 93, 26);
 }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 640px) {
     header, section, button{
       max-width: 100%;
       float: none;
