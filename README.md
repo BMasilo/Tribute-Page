@@ -1,6 +1,6 @@
 # Tribute-Page
 Nelson Mandela Tribute Page - Umuzi
-  https://bmasilo.github.io/Tribute-Page/Mandela.html
+  https://bmasilo.github.io/Tribute-Page/
 
 Requirements:
 
